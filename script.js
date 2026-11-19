@@ -11,4 +11,7 @@ fetch('data.json')
     const average = result / data.length;
     const resultElement = document.querySelector('.results__value');
     resultElement.textContent = Math.round(average);
+  })
+  .catch((error) => {
+    console.error('Error fetching data:', error);
   });

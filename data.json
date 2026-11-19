@@ -1,7 +1,7 @@
 [
   {
     "category": "Reaction",
-    "score": 99,
+    "score": 80,
     "icon": "./assets/images/icon-reaction.svg"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "category": "Verbal",
-    "score": 99,
+    "score": 68,
     "icon": "./assets/images/icon-verbal.svg"
   },
   {
