@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="script.js" defer></script>
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="results">
+      <div class="results__primary_section">
+        <h1>Your Result</h1>
+        <div class="results__value-container">
+          <div class="results__value"></div>
+          of 100
+        </div>
+        <span class="results__word_result">Great</span>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="results__secondary_section">
+        <h2>Summary</h2>
+        <ul class="results__summary">
+          <li data-category="reaction" class="results__summary-item">
+            <div class="results_summary-item__catname">
+              <img src="assets/images/icon-reaction.svg" alt="" /> <span>Reaction</span>
+            </div>
+            <strong><span>/ 100</span></strong>
+          </li>
+          <li data-category="memory" class="results__summary-item">
+            <div class="results_summary-item__catname">
+              <img src="assets/images/icon-memory.svg" alt="" /> <span>Memory</span>
+            </div>
+            <strong><span>/ 100</span></strong>
+          </li>
+          <li data-category="verbal" class="results__summary-item">
+            <div class="results_summary-item__catname">
+              <img src="assets/images/icon-verbal.svg" alt="" /> <span>Verbal</span>
+            </div>
+            <strong><span>/ 100</span></strong>
+          </li>
+          <li data-category="visual" class="results__summary-item">
+            <div class="results_summary-item__catname">
+              <img src="assets/images/icon-visual.svg" alt="" /> <span>Visual</span>
+            </div>
+            <strong><span>/ 100</span></strong>
+          </li>
+        </ul>
+        <button type="button">Continue</button>
+      </div>
+      <footer class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+        Coded by <a href="https://github.com/lineroml">Luisa Escobar</a>.
+      </footer>
+    </section>
+  </body>
+</html>
