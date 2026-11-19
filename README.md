@@ -66,4 +66,4 @@ Users should be able to:
 ## Author
 
 - GitHub - [@lineroml](https://github.com/lineroml)
-- Frontend Mentor - Add your profile link here
+- Frontend Mentor - [@lineroml](https://www.frontendmentor.io/profile/lineroml)
