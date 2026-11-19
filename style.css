@@ -270,6 +270,11 @@ button:focus {
   cursor: pointer;
 }
 
+button:focus-visible {
+  outline: 3px solid var(--color-gradient-light-slate-blue);
+  outline-offset: 3px;
+}
+
 @media (max-width: 670px) {
   body {
     align-items: flex-start;
