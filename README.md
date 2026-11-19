@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Solution FM](https://www.frontendmentor.io/solutions/frontend-mentor---results-summary-component-solution-h7ACZnKVsx)
+- Live Site URL: [Solution GH Pages](https://lineroml.github.io/frontend-mentor-results-summary-component-solution/)
 
 ## My process
 
